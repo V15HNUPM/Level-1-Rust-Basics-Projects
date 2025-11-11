@@ -4,7 +4,7 @@ A collection of beginner-friendly Rust projects that demonstrate fundamental pro
 
 ## 📚 Project Overview
 
-This repository contains 10 simple Rust projects designed to help beginners learn Rust programming through hands-on experience. Each project focuses on different core concepts and showcases Rust's safety, performance, and expressiveness.
+This repository contains 15 simple Rust projects designed to help beginners learn Rust programming through hands-on experience. Each project focuses on different core concepts and showcases Rust's safety, performance, and expressiveness.
 
 ## 🚀 Projects Included
 
@@ -63,6 +63,46 @@ This repository contains 10 simple Rust projects designed to help beginners lear
    - **Concepts**: Modular code structure, multiple conversion types
    - **File**: `unit_converter/`
 
+### 12. **Coin Flip Simulator**
+   - **Description**: Simulate coin flips with random heads/tails outcomes
+   - **Concepts**: Random number generation, arrays
+   - **File**: `coin_flip/`
+
+### 13. **Countdown Timer**
+   - **Description**: Visual countdown with thread sleep functionality
+   - **Concepts**: Thread management, time duration, loops
+   - **File**: `countdown_timer/`
+
+### 14. **String Tool**
+   - **Description**: Reverse strings and check for palindromes
+   - **Concepts**: String manipulation, pattern matching
+   - **File**: `string_tool/`
+
+### 15. **Prime Checker**
+   - **Description**: Check if numbers are prime using efficient algorithms
+   - **Concepts**: Mathematical operations, loops, conditionals
+   - **File**: `prime_checker/`
+
+### 16. **Fibonacci Generator**
+   - **Description**: Generate Fibonacci sequences of specified length
+   - **Concepts**: Vectors, sequences, iterative algorithms
+   - **File**: `fibonacci_generator/`
+
+### 17. **Factorial Calculator**
+   - **Description**: Calculate factorials using iterative multiplication
+   - **Concepts**: Iterative algorithms, mathematical operations
+   - **File**: `factorial_calculator/`
+
+### 18. **Hash Generator**
+   - **Description**: Create cryptographic hashes (SHA-1, SHA-2, SHA-3)
+   - **Concepts**: Cryptography, external crates, hash functions
+   - **File**: `hash_generator/`
+
+### 19. **Text Encryptor**
+   - **Description**: Encrypt text using AES-256 encryption
+   - **Concepts**: Encryption, Base64 encoding, security
+   - **File**: `text_encryptor/`
+
 ## 🛠️ Prerequisites
 
 - **Rust Programming Language** (version 1.70.0 or higher)
@@ -113,12 +153,14 @@ The executable will be available at `target/release/project_name`
 
 These projects are organized in a suggested learning order:
 
-1. Start with **Hello World** variants (Colored Hello, Welcome App)
-2. Move to **input-based apps** (Calculator, BMI Calculator)
-3. Progress to **game logic** (Guessing Game, Mad Libs, Dice Roller)
-4. Explore **file and API operations** (File Reader, Quote Generator)
-5. Learn **advanced patterns** (Text Formatter, Temperature Converter)
-6. Master **modular design** (Unit Converter)
+1. **Basic I/O**: Welcome App, Colored Hello World
+2. **Simple Calculations**: Calculator, BMI Calculator, Temperature Converter
+3. **Games & Interaction**: Guessing Game, Mad Libs, Dice Roller, Coin Flip
+4. **String Operations**: String Tool, Text Formatter
+5. **Mathematical Algorithms**: Prime Checker, Fibonacci, Factorial
+6. **File & System Operations**: File Reader, Countdown Timer
+7. **Network & Security**: Quote Generator, Hash Generator, Text Encryptor
+8. **Advanced Patterns**: Unit Converter (modular design)
 
 ## 🎯 Key Rust Concepts Covered
 
@@ -134,6 +176,11 @@ These projects are organized in a suggested learning order:
 - **File Handling**
 - **HTTP Requests**
 - **CLI Argument Parsing**
+- **Random Number Generation**
+- **String Manipulation**
+- **Mathematical Algorithms**
+- **Cryptography and Encryption**
+- **Thread and Time Management**
 
 ## 🔧 Project Structure
 
@@ -170,6 +217,30 @@ level-1-rust-basics-projects/
 │   ├── src/
 │   ├── Cargo.toml
 ├── unit_converter/
+│   ├── src/
+│   ├── Cargo.toml
+├── coin_flip/
+│   ├── src/
+│   ├── Cargo.toml
+├── countdown_timer/
+│   ├── src/
+│   ├── Cargo.toml
+├── string_tool/
+│   ├── src/
+│   ├── Cargo.toml
+├── prime_checker/
+│   ├── src/
+│   ├── Cargo.toml
+├── fibonacci_generator/
+│   ├── src/
+│   ├── Cargo.toml
+├── factorial_calculator/
+│   ├── src/
+│   ├── Cargo.toml
+├── hash_generator/
+│   ├── src/
+│   ├── Cargo.toml
+├── text_encryptor/
 │   ├── src/
 │   ├── Cargo.toml
 └── README.md
